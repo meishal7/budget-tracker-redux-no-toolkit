@@ -41,8 +41,8 @@ const Wrapper = () => {
         <Form header={"Expense"} action={"addExpense"} />
       </div>
 
-      <List data={incomeItems} header={"Income"} action={"addIncome"} />
-      <List data={expenseItems} header={"Expense"} action={"addExpense"} />
+      <List data={incomeItems} header={"Income"} />
+      <List data={expenseItems} header={"Expense"} />
     </WrapperStyle>
   );
 };
